@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Entity
 @Table(name = "message")
 public class Message {
@@ -23,8 +25,7 @@ public class Message {
     @Column(nullable = false)
     private String content;
 
-    @Column(nullable = false)
-    private String timestamp;
+    private LocalDateTime timestamp = LocalDateTime.now();
 
     public String getSender() {
         return sender;
@@ -50,10 +51,10 @@ public class Message {
         this.content = content;
     }
 
-    public String getTimestamp() {
+    public LocalDateTime getTimestamp() {
         return timestamp;
     }
-    public void setTimestamp(String timestamp) {
+    public void setTimestamp(LocalDateTime timestamp) {
         this.timestamp = timestamp;
     }
 }

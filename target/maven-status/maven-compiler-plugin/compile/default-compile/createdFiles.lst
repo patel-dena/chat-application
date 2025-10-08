@@ -1,4 +1,4 @@
-com/demo/ChatApplication/model/ChatMessage.class
+com/demo/ChatApplication/controller/MessageController.class
 com/demo/ChatApplication/entity/User.class
 com/demo/ChatApplication/ChatApplication.class
 com/demo/ChatApplication/entity/Message.class
@@ -6,6 +6,5 @@ com/demo/ChatApplication/service/UserService.class
 com/demo/ChatApplication/controller/UserController.class
 com/demo/ChatApplication/repository/UserRepository.class
 com/demo/ChatApplication/repository/MessageRepository.class
-com/demo/ChatApplication/controller/ChatController.class
 com/demo/ChatApplication/service/MessageService.class
 com/demo/ChatApplication/config/WebSocketConfig.class

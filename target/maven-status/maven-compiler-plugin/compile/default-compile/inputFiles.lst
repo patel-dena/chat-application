@@ -1,10 +1,9 @@
 /Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/ChatApplication.java
 /Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/config/WebSocketConfig.java
-/Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/controller/ChatController.java
+/Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/controller/MessageController.java
 /Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/controller/UserController.java
 /Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/entity/Message.java
 /Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/entity/User.java
-/Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/model/ChatMessage.java
 /Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/repository/MessageRepository.java
 /Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/repository/UserRepository.java
 /Users/denapatel/Java/ChatApplication/src/main/java/com/demo/ChatApplication/service/MessageService.java

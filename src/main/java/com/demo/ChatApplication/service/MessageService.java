@@ -2,13 +2,16 @@ package com.demo.ChatApplication.service;
 
 import com.demo.ChatApplication.entity.Message;
 import com.demo.ChatApplication.repository.MessageRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
 public class MessageService {
 
+    @Autowired
     private final MessageRepository messageRepository;
 
     public MessageService(MessageRepository messageRepository) {
@@ -16,6 +19,7 @@ public class MessageService {
     }
 
     public Message saveMessage(Message message) {
+        message.setTimestamp(LocalDateTime.now());
         return messageRepository.save(message);
     }
 
